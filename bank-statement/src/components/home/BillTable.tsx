@@ -13,7 +13,7 @@ export const BillTable = (props: IProps) => {
       title: "Ngày",
       dataIndex: "date",
       key: "date",
-      sorter: (a, b) => dayjs(a.date).unix() - dayjs(b.date).unix(),
+      sorter: (a: TransactionData, b: TransactionData) => dayjs(a.date).unix() - dayjs(b.date).unix(),
     },
     {
       title: "Số tiền",
