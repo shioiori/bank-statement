@@ -1,0 +1,88 @@
+import { TransactionData } from "@/types/bill";
+
+export const sampleData: TransactionData[] = [
+  {
+    id: 1,
+    date: "2023-10-01",
+    amount: 1500000,
+    description: "Chuyển tiền thanh toán hóa đơn điện",
+    bank: "Vietcombank",
+  },
+  {
+    id: 2,
+    date: "2023-10-05",
+    amount: 2000000,
+    description: "Nhận lương tháng 10",
+    bank: "Techcombank",
+  },
+  {
+    id: 3,
+    date: "2023-10-10",
+    amount: 500000,
+    description: "Rút tiền ATM",
+    bank: "BIDV",
+  },
+  {
+    id: 4,
+    date: "2023-10-15",
+    amount: 3000000,
+    description: "Chuyển tiền mua sắm online",
+    bank: "VPBank",
+  },
+  {
+    id: 5,
+    date: "2023-10-20",
+    amount: 1000000,
+    description: "Thanh toán hóa đơn internet",
+    bank: "Vietcombank",
+  },
+  {
+    id: 6,
+    date: "2023-10-25",
+    amount: 5000000,
+    description: "Nhận tiền chuyển khoản từ khách hàng",
+    bank: "Agribank",
+  },
+  {
+    id: 7,
+    date: "2023-10-28",
+    amount: 800000,
+    description: "Thanh toán hóa đơn nước",
+    bank: "BIDV",
+  },
+  {
+    id: 8,
+    date: "2023-10-30",
+    amount: 2500000,
+    description: "Chuyển tiền trả nợ",
+    bank: "Techcombank",
+  },
+  {
+    id: 9,
+    date: "2023-11-01",
+    amount: 1200000,
+    description: "Thanh toán học phí",
+    bank: "VPBank",
+  },
+  {
+    id: 10,
+    date: "2023-11-05",
+    amount: 4000000,
+    description: "Nhận tiền từ bán hàng online",
+    bank: "Vietcombank",
+  },
+  {
+    id: 11,
+    date: "2023-11-10",
+    amount: 900000,
+    description: "Thanh toán bảo hiểm",
+    bank: "Agribank",
+  },
+  {
+    id: 12,
+    date: "2023-11-15",
+    amount: 3500000,
+    description: "Chuyển tiền mua điện thoại",
+    bank: "BIDV",
+  },
+]
